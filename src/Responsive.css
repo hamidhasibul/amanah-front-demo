@@ -1,0 +1,212 @@
+/*responsive mobile*/
+
+@media only screen and (max-width: 640px) {
+  input,
+  input::placeholder {
+    font-size: 12px;
+  }
+  .control-size {
+    height: 2.1rem !important;
+  }
+  .font-18 {
+    font-size: 16px !important;
+  }
+  .font-12 {
+    font-size: 12px;
+  }
+  .form-select {
+    font-size: 13px !important;
+  }
+  .mobc {
+    display: block !important;
+  }
+  .moboff {
+    display: none !important;
+  }
+  .main-logo {
+    height: 35px;
+    object-fit: contain;
+  }
+
+  .font-15 {
+    font-size: 14px;
+  }
+  .font-16 {
+    font-size: 15px !important;
+  }
+  .font-18 {
+    font-size: 16px !important;
+  }
+  .font-22 {
+    font-size: 18px;
+  }
+
+  .font-20 {
+    font-size: 17px !important;
+  }
+
+  .member-nav {
+    border-bottom: none;
+  }
+
+  .member-nav2 {
+    border-bottom: 1px solid #ddd;
+  }
+  .filtericon {
+    height: 20px;
+    object-fit: contain;
+  }
+  .searchbtn_icon {
+    border-radius: 5px 0px 0px 5px !important;
+    height: 30px;
+    border: 1px solid #ddd;
+    background-color: #ddd !important;
+  }
+
+  .selectmain {
+    padding: 5px 8px 5px 8px !important;
+    border: none !important;
+    color: #565656 !important;
+    font-family: "LalSabujNormal";
+    background-color: rgb(232, 243, 233) !important;
+  }
+
+  .selectmainss {
+    height: 30px;
+    padding: 5px 8px 5px 8px !important;
+    border: 1px solid #ddd !important;
+    font-size: 13px !important;
+    color: #565656 !important;
+    font-family: "LalSabujNormal";
+    background-color: #ffffff !important;
+  }
+  .sm-lg {
+    margin-top: 29px;
+  }
+  .htext1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1d8d59;
+  }
+  .heading2 {
+    font-size: 24px;
+    color: #046839;
+  }
+
+  .heading4 {
+    font-size: 30px;
+    color: #046839;
+  }
+
+  .heading3 {
+    font-size: 30px;
+    color: #464b48;
+  }
+
+  .homemain {
+    background-image: url("../src/assets/02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom 100px right 20%;
+  }
+  .member_imgLG {
+    border-radius: 10%;
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    background-color: white;
+    border: 5px solid #f0f0f0;
+  }
+
+  .member_main2 {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 16px;
+  }
+
+  .fovorite {
+    height: 25px;
+    object-fit: contain;
+  }
+
+  .favoritePosition {
+    position: absolute;
+    left: 130px;
+    top: 80px;
+  }
+
+  .btn-down {
+    border-radius: 50%;
+    padding: 6px 0px 3px 0px;
+    background: rgb(35, 147, 0);
+    background: linear-gradient(
+      274deg,
+      rgba(35, 147, 0, 1) 0%,
+      rgba(15, 113, 8, 0.9948354341736695) 100%
+    );
+  }
+
+  .btn-down:hover {
+    padding: 6px 0px 3px 0px;
+    background: rgb(35, 147, 0);
+    background: linear-gradient(
+      274deg,
+      rgba(15, 113, 8, 0.9948354341736695) 100%,
+      rgba(35, 147, 0, 1) 0%
+    );
+  }
+
+  .btn-down2 {
+    border-radius: 50%;
+    background-color: #ffffff;
+  }
+
+  .f_icon {
+    height: 16px;
+    object-fit: contain;
+  }
+  .procroll {
+    overflow-x: scroll;
+    flex-grow: 1;
+  }
+  .procroll::-webkit-scrollbar {
+    display: none !important;
+  }
+  .activepnav {
+    background-color: none;
+    color: #005f33;
+    border-radius: 5px !important;
+  }
+  .statusbarp {
+    background-color: #c7ecdf;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px dashed green;
+  }
+  .multi-range-slider .bar-left,
+  .multi-range-slider .bar-right {
+    box-shadow: none !important;
+    background-color: rgb(230, 235, 232);
+  }
+  .biodataaddimg {
+    height: 80px;
+    object-fit: contain;
+  }
+  .mobileAppf {
+    height: 400px;
+    background: rgb(230, 255, 221);
+    background: radial-gradient(
+      circle,
+      rgba(230, 255, 221, 1) 0%,
+      rgba(239, 255, 235, 1) 100%
+    );
+  }
+  .uiimg {
+    height: 300px;
+    object-fit: contain;
+  }
+  .plays {
+    height: 40px;
+    object-fit: contain;
+  }
+}
